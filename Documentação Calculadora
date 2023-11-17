@@ -1,0 +1,53 @@
+Documentação do Projeto Calculadora
+1. Introdução:
+Este projeto implementa uma calculadora simples em Java, fornecendo operações básicas como adição, subtração, multiplicação e divisão.
+
+2. Estrutura do Projeto:
+O projeto é estruturado em classes que representam cada operação matemática, juntamente com classes de teste para verificar a correta implementação das operações.
+
+3. Classes:
+3.1. Soma:
+Descrição:
+A classe Soma implementa a operação de adição.
+Métodos:
+int somar(int a, int b): Realiza a adição de dois números inteiros.
+Exemplo de Uso:
+java
+Copy code
+Soma calculadora = new Soma();
+int resultado = calculadora.somar(2, 3);
+3.2. Subtracao:
+Descrição:
+A classe Subtracao implementa a operação de subtração.
+Métodos:
+int subtrair(int a, int b): Realiza a subtração de dois números inteiros.
+3.3. Multiplicacao:
+Descrição:
+A classe Multiplicacao implementa a operação de multiplicação.
+Métodos:
+int multiplicar(int a, int b): Realiza a multiplicação de dois números inteiros.
+3.4. Divisao:
+Descrição:
+A classe Divisao implementa a operação de divisão.
+Métodos:
+int dividir(int a, int b): Realiza a divisão de dois números inteiros.
+4. Classes de Teste:
+4.1. TesteSoma:
+Descrição:
+A classe TesteSoma contém métodos de teste para a classe Soma.
+Métodos:
+void testSomar(): Verifica se o método somar da classe Soma funciona corretamente.
+4.2. TesteSubtracao:
+Descrição:
+A classe TesteSubtracao contém métodos de teste para a classe Subtracao.
+4.3. TesteMultiplicacao:
+Descrição:
+A classe TesteMultiplicacao contém métodos de teste para a classe Multiplicacao.
+4.4. TesteDivisao:
+Descrição:
+A classe TesteDivisao contém métodos de teste para a classe Divisao.
+5. Variáveis e Parâmetros:
+Variáveis e parâmetros são descritos nos próprios métodos das classes mencionadas acima.
+6. Instruções para Execução dos Testes:
+Para executar os testes, utilize uma ferramenta de execução de testes JUnit.
+Certifique-se de que as classes de teste estejam no classpath.
